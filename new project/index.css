@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(186, 211, 214);
+    margin: 0;
+    padding: 0;
+
+}
+
+.nemeplyer {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    text-align: center;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+
+}
+
+
+.photo-img {
+
+    width: 50vw;
+    height: 50vw;
+    background-image: url(./Daniil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* <a href="https://vk.com/esenkin23"><img src="VK.jpg" alt="logo vk" style="width:42px;height:42px;"></a> */
+}
+
+.icon1 {
+    position: relative;
+    background-size: cover;
+    top: 20%;
+    left: 80%;
+
+}
+
+.icon2 {
+    position: relative;
+    background-size: cover;
+    top: 20%;
+    left: 10%;
+
+}
+
+.icon3 {
+    position: relative;
+    background-size: cover;
+    top: 60%;
+    left: 80%;
+}
+
+.icon4 {
+    position: relative;
+    background-size: cover;
+    top: 55%;
+    left: 10%;
+
+}
+
+
+h2 {
+    text-align:center;
+}
